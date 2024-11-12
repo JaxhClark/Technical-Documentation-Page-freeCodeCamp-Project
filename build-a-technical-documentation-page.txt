@@ -1,0 +1,237 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<!--Some things are not capitalised because whatever freecodecamp uses to check all the requirements was NOT working right-->
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+  </head>
+
+  <body>
+    <nav id="navbar">
+      <header><h1>Front-end Website Construction</h1></header>
+      <ul>
+        <li><a class="nav-link" href="#intro">intro</a></li>
+        <li><a class="nav-link" href="#planning">planning</a></li>
+        <li><a class="nav-link" href="#setting">setting</a></li>
+        <li><a class="nav-link" href="#structure">structure</a></li>
+        <li><a class="nav-link" href="#interactivity">interactivity</a></li>
+        <li><a class="nav-link" href="#testing">testing</a></li>
+        <li><a class="nav-link" href="#deployment">deployment</a></li>
+        <li><a class="nav-link" href="#references">references</a></li>
+      </ul>
+    </nav>
+
+    <main id="main-doc">
+      <section class="main-section" id="intro">
+        <header><h2>intro</h2></header>
+        <p>Front-End Development refers to the part of web development that involves creating the user interface and experience of a website or web application. It focuses on everything that users see and interact with directly in their web browsers, such as layout, design, navigation, and interactive elements. Front-end development typically involves languages like HTML, CSS, and JavaScript, along with various frameworks and libraries that help make websites responsive, dynamic, and user-friendly.</p>
+        <p>Building a website from a front-end perspective involves a structured workflow that ensures a well-designed, functional, and responsive user experience. This guide will walk through each stage, from planning and design to deployment, providing best practices and insights at every step.</p>
+        <p>To follow this workflow effectively, it’s helpful to have some basic familiarity with:</p>
+        <ul>
+          <li>HTML, CSS, and JavaScript: The core building blocks of front-end development for structuring, styling, and adding interactivity.</li>
+          <li>Version Control (Git): Essential for tracking changes, managing code versions, and collaborating with others.</li>
+          <li>Design Tools (e.g., Figma, Adobe XD): Useful for creating wireframes, prototypes, and visual designs before coding.</li>
+          <li>Testing and Debugging Tools: Browser developer tools (e.g., Chrome DevTools) for testing and debugging your code.</li>
+          <li>Deployment Platforms: Services like Netlify or GitHub Pages to publish your website online.</li>
+        </ul>
+      </section>
+
+      <section class="main-section" id="planning">
+        <header><h2>planning</h2></header>
+        <p>The planning and design phase is essential for establishing a solid foundation for the website. This stage starts with user research, where the target audience and their needs are identified to create user personas that guide the design and functionality of the site.</p>
+        <p>Once the audience is clear, designers create wireframes and prototypes using tools like Figma or Adobe XD to lay out the website’s structure and flow. This blueprint helps in visualizing the layout before coding.</p>
+        <p>The design phase also incorporates UI/UX principles, focusing on aesthetics, accessibility, and user experience to ensure the site is both visually appealing and functional for all users.</p>
+        <code>imagine there is code here</code>
+      </section>
+
+      <section class="main-section" id="setting">
+        <header><h2>setting</h2></header>
+        <p>In this phase, developers set up the development environment to streamline the coding process. Choosing the right code editor or integrated development environment (IDE), such as Visual Studio Code, is key for efficient and organized coding.</p>
+        <p>Version control, often managed with Git, allows developers to track code changes and collaborate effectively. Additionally, package managers like npm or Yarn are used to manage dependencies and install libraries, making it easier to add functionality and maintain the project.</p>
+        <code>imagine there is code here</code>
+      </section>
+
+      <section class="main-section" id="structure">
+        <header><h2>structure</h2></header>
+        <p>The website's structure and visual layout are built using HTML and CSS. HTML, the backbone of the web, is used to create a semantic structure, organizing the content in a way that’s logical and accessible.</p>
+        <p>CSS brings the design to life, applying colors, fonts, and layouts. Modern layout techniques such as Flexbox and CSS Grid make it easy to create responsive, adaptive designs for various devices.</p>
+        <p>Some developers also use CSS preprocessors like SASS or LESS, which streamline styling and improve maintainability with features like variables and nested rules.</p>
+        <code>imagine there is code here</code>
+      </section>
+
+      <section class="main-section" id="interactivity">
+        <header><h2>interactivity</h2></header>
+        <p>JavaScript adds interactivity and dynamic functionality to the website. Developers use it for basic actions, like manipulating the Document Object Model (DOM) to respond to user events, create animations, and update content in real-time.</p>
+        <p>For more complex functionality, front-end frameworks or libraries, such as React or Vue, help manage components and application states. These tools make it easier to build a rich, interactive user interface that responds to user input smoothly.</p>
+        <code>imagine there is code here</code>
+      </section>
+
+      <section class="main-section" id="testing">
+        <header><h2>testing</h2></header>
+        <p>This stage ensures that the website functions properly across different devices and browsers and is optimized for performance. Cross-browser compatibility testing helps catch issues that could affect the experience on various platforms.</p>
+        <p>Accessibility testing is also crucial, making sure the site meets standards to be inclusive for users with disabilities. Performance optimization techniques, such as lazy loading, image compression, and code splitting, help the website load quickly and run efficiently.</p>
+        <code>imagine there is code here</code>
+      </section>
+
+      <section class="main-section" id="deployment">
+        <header><h2>deployment</h2></header>
+        <p>The final step is to deploy the website to a live environment and set up a maintenance plan. Deployment platforms like Netlify, Vercel, or GitHub Pages provide accessible options for hosting the website online.</p>
+        <p>After deployment, ongoing maintenance ensures the site remains secure, up-to-date, and responsive to user feedback. Regular updates and security checks keep the website running smoothly and help address any issues that arise.</p>
+        <code>imagine there is code here</code>
+      </section>
+
+      <section class="main-section" id="references">
+      <header><h2>references</h2></header>
+
+      <h3>Planning and Design</h3>
+      <ul>
+        <li><a href="https://www.nngroup.com/articles/importance-of-user-research/" target="_blank">Nielsen Norman Group - Importance of User Research</a></li>
+        <li><a href="https://www.smashingmagazine.com/2018/06/complete-guide-wireframing-prototyping/" target="_blank">Smashing Magazine - Complete Guide to Wireframing and Prototyping</a></li>
+        <li><a href="https://www.figma.com/resources/learn/wireframing/" target="_blank">Figma - Wireframing Basics</a></li>
+        <li><a href="https://www.interaction-design.org/literature/topics/ux-design" target="_blank">Interaction Design Foundation - What is UX Design?</a></li>
+        <li><a href="https://alistapart.com/article/designing-for-the-web/" target="_blank">A List Apart - Designing for the Web</a></li>
+      </ul>
+
+      <h3>Setting Up the Devleopment Envirnment</h3>
+      <ul>
+        <li><a href="https://code.visualstudio.com/docs" target="_blank">Visual Studio Code Documentation</a></li>
+        <li><a href="https://git-scm.com/book/en/v2" target="_blank">Git Documentation - Pro Git Book</a></li>
+        <li><a href="https://guides.github.com/introduction/flow/" target="_blank">GitHub - Understanding the GitHub Flow</a></li>
+        <li><a href="https://docs.npmjs.com/" target="_blank">npm Documentation</a></li>
+        <li><a href="https://yarnpkg.com/getting-started" target="_blank">Yarn Documentation</a></li>
+      </ul>
+
+      <h3>Structure and Layout with HTML and CSS</h3>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN Web Docs - HTML</a></li>
+        <li><a href="https://html.spec.whatwg.org/multipage/" target="_blank">HTML Living Standard</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN Web Docs - CSS</a></li>
+        <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS-Tricks - A Guide to Flexbox</a></li>
+        <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">CSS-Tricks - A Guide to Grid</a></li>
+        <li><a href="https://sass-lang.com/documentation" target="_blank">SASS Documentation</a></li>
+        <li><a href="http://lesscss.org/" target="_blank">LESS Documentation</a></li>
+      </ul>
+
+      <h3>Adding Interactivity with JavaScript</h3>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide" target="_blank">MDN Web Docs - JavaScript Guide</a></li>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction" target="_blank">MDN Web Docs - DOM Introduction</a></li>
+        <li><a href="https://reactjs.org/docs/getting-started.html" target="_blank">React Documentation</a></li>
+        <li><a href="https://vuejs.org/guide/" target="_blank">Vue.js Documentation</a></li>
+      </ul>
+
+      <h3>Testing and Optimization</h3>
+      <ul>
+        <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks_and_cross-browser_testing" target="_blank">MDN Web Docs - Cross-Browser Compatibility</a></li>
+        <li><a href="https://www.w3.org/WAI/WCAG21/quickref/" target="_blank">W3C - Web Content Accessibility Guidelines (WCAG)</a></li>
+        <li><a href="https://webaim.org/intro/" target="_blank">WebAIM - Introduction to Web Accessibility</a></li>
+        <li><a href="https://developers.google.com/web/fundamentals/performance" target="_blank">Google Developers - Web Performance Optimization</a></li>
+        <li><a href="https://www.smashingmagazine.com/2019/06/web-performance-optimization/" target="_blank">Smashing Magazine - Web Performance Optimization</a></li>
+      </ul>
+
+      <h3>Deployment and Maintenance</h3>
+      <ul>
+        <li><a href="https://www.netlify.com/docs/" target="_blank">Netlify Documentation</a></li>
+        <li><a href="https://pages.github.com/" target="_blank">GitHub Pages</a></li>
+        <li><a href="https://www.sitepoint.com/the-essential-guide-to-website-maintenance/" target="_blank">SitePoint - The Essential Guide to Website Maintenance</a></li>
+        <li><a href="https://www.smashingmagazine.com/2020/03/website-maintenance-plan/" target="_blank">Smashing Magazine - How to Create a Website Maintenance Plan</a></li>
+      </ul>
+      </section>
+    </main>
+  </body>
+
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+* {
+  box-sizing: border-box;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+nav {
+  position: fixed;
+  background-color: #121314;
+  font-family: monospace, sans-serif;
+  width: 250px;
+  height: 100%;
+  overflow-y: auto;
+  display: inline;
+  left: 0;
+  top: 0;
+}
+
+nav li {
+  list-style-type: none;
+  padding-top: 50px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #3ef05f;
+}
+
+section {
+  width: 100;
+  min-width: 600px;
+  height: 100%;
+  position: relative;
+  margin: 0 0 0 250px;
+  padding: 20px;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+body {
+  background-color: #1b1d1f;
+}
+
+h1{
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+h2, h3 {
+  font-size: 1.5rem;
+  padding-left: 0;
+}
+
+h1, h2, h3 {
+  font-family: monospace, sans-serif;
+}
+
+p {
+  font-family: helvetica, sans-serif;
+}
+
+code {
+  background-color: black;
+  padding: 15px;
+  border-radius: 20px;
+  color: #3ef05f;
+}
+
+@media (max-width: 600px) {
+  section {
+    margin-left: -10px;
+  }
+  nav {
+    height: 100%;
+    position: static;
+    width: 50%;
+    min-width: 50%;
+  }
+}
+
+** end of undefined **
+
